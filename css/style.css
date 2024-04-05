@@ -1,0 +1,11 @@
+:root {
+    --background-color: #000;
+    --text-color: #F5EBEB;
+    --accecnt-color: #A93B59;
+    --background-form: rgba(185, 106, 127, 0.70);
+    --additional-text: #FFF;
+    
+}
+body {
+    background-color: var(--background-color);
+}
