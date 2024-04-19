@@ -1,199 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Spline+Sans:wght@300..700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    <header>
-      <a href="./index.html"
-        ><img src="./images/logo-icon.png" alt="logo" />
-        <p class="flowerlover">FlowerLover</p></a
-      >
-      <nav>
-        <ul>
-          <li><a href="#">Головна</a></li>
-          <li><a href="#">Каталог</a></li>
-          <li><a href="#">Про нас</a></li>
-          <li><a href="#">Як замовити</a></li>
-          <li><a href="#">Відгуки </a></li>
-          <li><a href="#">Контакти </a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <!-- секція-герой -->
-      <section class="section-hero">
-        <p>Неймовірні</p>
-        <h1>Букети</h1>
-        <p>зі свіжих квітів</p>
-        <p>З доставкою по Києву протягом 1 години</p>
-        <button type="button">ЗАМОВИТИ КВІТИ</button>
-        <ul>
-          <li>
-            <img src="./images/rose.png" alt="rose" />
-            <p>Щоденне оновлення свіжих квітів</p>
-          </li>
-          <li>
-            <img src="./images/navigation.png" alt="navigation" />
-            <p>безкоштовна доставка в будь яку точку міста</p>
-          </li>
-          <li>
-            <img src="./images/map-location.png" alt="map-location" />
-            <p>більше 1000 сортів квітів з усього світу</p>
-          </li>
-        </ul>
-      </section>
-      <!-- секція Каталог -->
-      <section>
-        <p>Каталог</p>
-        <h2>Доставка квітів в Києві</h2>
-        <ul>
-          <li>
-            <p>Ціна ...</p>
-            <img src="./images/chevron-down.png" alt="chevron-down" />
-          </li>
-          <li>
-            <p>Квіти ...</p>
-            <img src="./images/chevron-down.png" alt="chevron-down" />
-          </li>
-          <li>
-            <p>Кому ...</p>
-            <img src="./images/chevron-down.png" alt="chevron-down" />
-          </li>
-          <li>
-            <p>Привід...</p>
-            <img src="./images/chevron-down.png" alt="chevron-down" />
-          </li>
-          <li>
-            <p>Стиль ...</p>
-            <img src="./images/chevron-down.png" alt="chevron-down" />
-          </li>
-        </ul>
-        <h3>Хіт продажів</h3>
-        <ul>
-          <li><img src="./images/pic2.jpg" alt="flower" /></li>
-          <li><img src="./images/pic3.jpg" alt="flower" /></li>
-          <li><img src="./images/pic4.png" alt="flower" /></li>
-          <li><img src="./images/pic5.jpg" alt="flower" /></li>
-          <li><img src="./images/pic1.jpg" alt="flower" /></li>
-          <li><img src="./images/pic6.jpg" alt="flower" /></li>
-        </ul>
-        <button type="button">Дивитись всі</button>
-      </section>
-      <!-- якість в деталях -->
-      <section>
-        <p>Якість в деталях</p>
-        <ul>
-          <li>
-            <img src="./images/pic7.jpg" alt="flower" />
-            <h2>Контроль свіжості квітів</h2>
-            <p>
-              Ми співпрацюємо з кращими постачальниками квітів і готові
-              запропонувати Вам широкий асортимент квітів, починаючи від
-              місцевих сортів і закінчуючи рідкісними імпортованими варіантами.
-              Ваша близька людина отримає найкращий подарунок, адже ми ретельно
-              підбираємо кожну квітку для вашого букету.
-            </p>
-          </li>
-          <li>
-            <img src="./images/pic8.jpg" alt="women with flowers" />
-            <h2>Оформлення букетів</h2>
-            <p>
-              Ми готові зібрати унікальний букет по індивідуальному замовленню .
-              Наші флористи втілять в життя будь яку Вашу ідею!
-            </p>
-          </li>
-          <li>
-            <img src="./images/pic9.jpg" alt="flower" />
-            <h2>Швидка доставка</h2>
-            <p>
-              Ми робимо доставки по Україні протягом 3-х годин з моменту оплати
-              замовлення.
-            </p>
-          </li>
-        </ul>
-      </section>
-      <!-- секція форма-->
-      <section>
-        <p>Не можете визначитись з вибором букету?</p>
-        <h2>Відправте заявку і Вам зателефонують протягом однієї хвилини</h2>
-        <form>
-            <input type="text" placeholder="Ім’я">
-            <img src="./images/🦆 icon _person_.png" alt="man">
-            <input type="tel" placeholder="Телефон">
-            <img src="./images/phone.png" alt="phone">
-            <button type="submit">Залишити заявку</button>
-        </form>
-        <h3>Наш менеджер по телефону:</h3>
-        <ul>
-            <li>
-                <img src="./images/🦆 icon _checkmark.png" alt="checkmark">
-                <p>Відповість на будь які запитання</p>
-            </li>
-            <li>
-                <img src="./images/🦆 icon _checkmark.png" alt="checkmark">
-                <p>Підбере рішення відповідно 
-                    до ваших запитів та бажань</p>
-            </li>
-            <li>
-                <img src="./images/🦆 icon _checkmark.png" alt="checkmark">
-                <p>Підбере рішення відповідно 
-                    до ваших запитів та бажань</p>
-            </li>
-            <li>
-                <img src="./images/🦆 icon _checkmark.png" alt="checkmark">
-                <p>Оформить для Вас подарунок-сюрприз</p>
-            </li>
-        </ul>
-      </section>
-      <section>
-        <p>Наші клієнти</p>
-        <ul>
-          <li><img src="./images/clain1.jpg" alt="clain"></li>
-          <li><img src="./images/clain2.jpg" alt="clain"></li>
-          <li><img src="./images/clain3.jpg" alt="clain"></li>
-          <li><img src="./images/clain4.jpg" alt="clain"></li>
-        </ul>
-        <ul>
-          <li><img src="./images/🦆 icon_left.png" alt="left"></li>
-          <li><img src="./images/🦆 icon_rait.png" alt="rain"></li>
-        </ul>
-      </section>
-    </main>
-    <footer>
+  <header class="header">
+    <a href="./index.html" class="header-logo"><img src="./images/logo-icon.png" alt="logo" class="logo-icon" />
+      <p class="logo-text">FlowerLover</p>
+    </a>
+    <nav class="header-nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#" class="nav-link">Головна</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Каталог</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Про нас</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Як замовити</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Відгуки </a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Контакти </a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <!-- секція-герой -->
+    <section class="section-hero">
+      <h1> <span class="hero-title-1">Неймовірні</span> <span class="hero-title-2">Букети</span> <span class="hero-title-3">зі свіжих квітів</span></h1>
+      <p class="hero-description">З доставкою по Києву протягом 1 години</p>
+      <button type="button" class="hero-button">ЗАМОВИТИ КВІТИ</button>
+      <ul class="hero-list">
+        <li class="hero-item">
+          <img src="./images/rose.png" alt="rose" class="hero-image"/>
+          <p class="hero-desc">Щоденне оновлення свіжих квітів</p>
+        </li>
+        <li class="hero-item">
+          <img src="./images/navigation.png" alt="navigation" class="hero-image"/>
+          <p class="hero-desc">безкоштовна доставка в будь яку точку міста</p>
+        </li>
+        <li class="hero-item">
+          <img src="./images/map-location.png" alt="map-location" class="hero-image"/>
+          <p class="hero-desc">більше 1000 сортів квітів з усього світу</p>
+        </li>
+      </ul>
+    </section>
+    <!-- секція Каталог -->
+    <section class="catalog">
+      <p class="catalog-desc">Каталог</p>
+      <h2 class="catalog-deliviry">Доставка квітів в Києві</h2>
+      <ul class="catalog-list">
+        <li class="catalog-item">
+          <p class="catalog-description">Ціна ...</p>
+          <img src="./images/chevron-down.png" alt="chevron-down" class="catalog-img" />
+        </li>
+        <li class="catalog-item">
+          <p class="catalog-description">Квіти ...</p>
+          <img src="./images/chevron-down.png" alt="chevron-down" class="catalog-img" />
+        </li>
+        <li class="catalog-item">
+          <p class="catalog-description">Кому ...</p>
+          <img src="./images/chevron-down.png" alt="chevron-down" class="catalog-img" />
+        </li>
+        <li class="catalog-item">
+          <p class="catalog-description">Привід...</p>
+          <img src="./images/chevron-down.png" alt="chevron-down" class="catalog-img" />
+        </li>
+        <li class="catalog-item">
+          <p class="catalog-description">Стиль ...</p>
+          <img src="./images/chevron-down.png" alt="chevron-down" class="catalog-img" />
+        </li>
+      </ul>
+      <h3 class="catalog-title">Хіт продажів</h3>
+      <ul class="catalog-inventory"> 
+        <li class="inventory-item"><img src="./images/pic2.jpg" alt="flower" class="invenotry-img"/></li>
+        <li class="inventory-item"><img src="./images/pic3.jpg" alt="flower" class="invenotry-img"/></li>
+        <li class="inventory-item"><img src="./images/pic4.png" alt="flower" class="invenotry-img"/></li>
+        <li class="inventory-item"><img src="./images/pic5.jpg" alt="flower" class="invenotry-img"/></li>
+        <li class="inventory-item"><img src="./images/pic1.jpg" alt="flower" class="invenotry-img"/></li>
+        <li class="inventory-item"><img src="./images/pic6.jpg" alt="flower" class="invenotry-img"/></li>
+      </ul>
+      <button type="button" class="catalog-button">Дивитись всі</button>
+    </section>
+    <!-- якість в деталях -->
+    <section>
+      <p>Якість в деталях</p>
       <ul>
-        <li><a href="#">Головна</a></li>
-        <li><a href="#">Каталог</a></li>
-        <li><a href="#">Відгуки</a></li>
-        <li><a href="#">Як замовити</a></li>
-        <li><a href="#">Контакти</a></li>
-        </ul>
-        <a href="./index.html"><img src="./images/logo-icon.png" alt="logo" /><p class="flowerlover">FlowerLover</p></a>
-        <ul>
-        <li><a href=""><img src="./images/logo-phone.png" alt=""></a></li>
-        <li><a href=""><img src="./images/logo-instagram.png" alt=""></a></li>
-        <li><a href=""><img src="./images/🦆 icon-facebook.png" alt=""></a></li>
-        </ul>
-        <address>
-        <ul>
         <li>
-        <a href="tel:+380977775577">+38097 777 55 77</a>
-        <p>Наш телефон</p>
+          <img src="./images/pic7.jpg" alt="flower" />
+          <h2>Контроль свіжості квітів</h2>
+          <p>
+            Ми співпрацюємо з кращими постачальниками квітів і готові
+            запропонувати Вам широкий асортимент квітів, починаючи від
+            місцевих сортів і закінчуючи рідкісними імпортованими варіантами.
+            Ваша близька людина отримає найкращий подарунок, адже ми ретельно
+            підбираємо кожну квітку для вашого букету.
+          </p>
         </li>
         <li>
-        <a href="mailto:info@floverlover.ua">info@floverlover.ua</a>
-        <p>Контактний е-mail</p>
+          <img src="./images/pic8.jpg" alt="women with flowers" />
+          <h2>Оформлення букетів</h2>
+          <p>
+            Ми готові зібрати унікальний букет по індивідуальному замовленню .
+            Наші флористи втілять в життя будь яку Вашу ідею!
+          </p>
         </li>
         <li>
-        <a href="https://www.google.com/maps/dir/%D0%A2%D0%A6+%D0%9C%D0%B0%D0%B9%D0%B4%D0%B0%D0%BD/49.837230,+24.035886/@48.2677647,25.929119,16.04z/data=!4m11!4m10!1m5!1m1!1s0x473408b531f1ab81:0x932531408079d687!2m2!1d25.9278535!2d48.2675368!1m3!2m2!1d24.035886!2d49.83723?hl=uk-UK&entry=ttu">Київ вул. Маріупольська, 14.</a>
-        <p>Наш магазин</p>
+          <img src="./images/pic9.jpg" alt="flower" />
+          <h2>Швидка доставка</h2>
+          <p>
+            Ми робимо доставки по Україні протягом 3-х годин з моменту оплати
+            замовлення.
+          </p>
         </li>
-        </ul>
-        </address>
-    </footer>
-    
+      </ul>
+    </section>
+    <!-- секція форма-->
+    <section>
+      <p>Не можете визначитись з вибором букету?</p>
+      <h2>Відправте заявку і Вам зателефонують протягом однієї хвилини</h2>
+      <form>
+        <input type="text" placeholder="Ім’я">
+        <img src="./images/🦆 icon _person_.png" alt="man">
+        <input type="tel" placeholder="Телефон">
+        <img src="./images/phone.png" alt="phone">
+        <button type="submit">Залишити заявку</button>
+      </form>
+      <h3>Наш менеджер по телефону:</h3>
+      <ul>
+        <li>
+          <img src="./images/🦆 icon _checkmark.png" alt="checkmark">
+          <p>Відповість на будь які запитання</p>
+        </li>
+        <li>
+          <img src="./images/🦆 icon _checkmark.png" alt="checkmark">
+          <p>Підбере рішення відповідно
+            до ваших запитів та бажань</p>
+        </li>
+        <li>
+          <img src="./images/🦆 icon _checkmark.png" alt="checkmark">
+          <p>Підбере рішення відповідно
+            до ваших запитів та бажань</p>
+        </li>
+        <li>
+          <img src="./images/🦆 icon _checkmark.png" alt="checkmark">
+          <p>Оформить для Вас подарунок-сюрприз</p>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <p>Наші клієнти</p>
+      <ul>
+        <li><img src="./images/clain1.jpg" alt="clain"></li>
+        <li><img src="./images/clain2.jpg" alt="clain"></li>
+        <li><img src="./images/clain3.jpg" alt="clain"></li>
+        <li><img src="./images/clain4.jpg" alt="clain"></li>
+      </ul>
+      <ul>
+        <li><img src="./images/🦆 icon_left.png" alt="left"></li>
+        <li><img src="./images/🦆 icon_rait.png" alt="rain"></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <ul>
+      <li><a href="#">Головна</a></li>
+      <li><a href="#">Каталог</a></li>
+      <li><a href="#">Відгуки</a></li>
+      <li><a href="#">Як замовити</a></li>
+      <li><a href="#">Контакти</a></li>
+    </ul>
+    <a href="./index.html"><img src="./images/logo-icon.png" alt="logo" />
+      <p class="flowerlover">FlowerLover</p>
+    </a>
+    <ul>
+      <li><a href=""><img src="./images/logo-phone.png" alt=""></a></li>
+      <li><a href=""><img src="./images/logo-instagram.png" alt=""></a></li>
+      <li><a href=""><img src="./images/🦆 icon-facebook.png" alt=""></a></li>
+    </ul>
+    <address>
+      <ul>
+        <li>
+          <a href="tel:+380977775577">+38097 777 55 77</a>
+          <p>Наш телефон</p>
+        </li>
+        <li>
+          <a href="mailto:info@floverlover.ua">info@floverlover.ua</a>
+          <p>Контактний е-mail</p>
+        </li>
+        <li>
+          <a
+            href="https://www.google.com/maps/dir/%D0%A2%D0%A6+%D0%9C%D0%B0%D0%B9%D0%B4%D0%B0%D0%BD/49.837230,+24.035886/@48.2677647,25.929119,16.04z/data=!4m11!4m10!1m5!1m1!1s0x473408b531f1ab81:0x932531408079d687!2m2!1d25.9278535!2d48.2675368!1m3!2m2!1d24.035886!2d49.83723?hl=uk-UK&entry=ttu">Київ
+            вул. Маріупольська, 14.</a>
+          <p>Наш магазин</p>
+        </li>
+      </ul>
+    </address>
+  </footer>
+
 </body>
+
 </html>
