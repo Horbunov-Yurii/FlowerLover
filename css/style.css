@@ -108,3 +108,40 @@ body {
     font-weight: 400;
     line-height: 1.25;
 }
+
+/* Секція Каталог */
+.catalog-desc {
+color:var(--accent-color);
+    /* text-align: center; */
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.33;
+}
+
+.catalog-deliviry {
+    color: var(--additional-text);
+        text-align: center;
+        font-family: "Playfair Display", serif;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 1.33;
+}
+
+.catalog-description {
+    color: var(--additional-text);
+        font-family: "Source Sans 3", sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 1.28;
+}
+
+.catalog-title {
+    color: var(--additional-text);
+    font-family: "Playfair Display", serif;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 1.33;
+}
+
