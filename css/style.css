@@ -1,7 +1,7 @@
 :root {
     --background-color: #000;
     --text-color: #F5EBEB;
-    --accecnt-color: #A93B59;
+    --accent-color: #A93B59;
     --background-form: rgba(185, 106, 127, 0.70);
     --additional-text: #FFF;
     
@@ -15,9 +15,9 @@ body {
     background-color: var(--background-color);
 }
 
+/* секція header  */
 
-
-.heder-logo {
+.header-logo {
     color: var(--text-color);
     text-align: center;
     font-family: "Spline Sans", sans-serif;
@@ -34,12 +34,77 @@ body {
 }
 
 .nav-link {
-color: var(--text-color);
-text-align: center;
-font-family: "Source Sans 3", sans-serif;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    color: var(--text-color);
+    text-align: center;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
 }
 
+/* секція герой */
+
+.hero-title-1 {
+    color: var(--accent-color);
+    /* text-align: center; */
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.hero-title-2 {
+    color: var(--text-color);
+    /* text-align: center; */
+    font-family: "Playfair Display", serif;
+    font-size: 86px;
+    font-weight: 400;
+    line-height: 1.43;
+    text-transform: uppercase;
+}
+
+.hero-title-3 {
+    color: var(--accent-color);
+    /* text-align: center; */
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.hero-description {
+    color: var(--text-color);
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.25;
+    text-transform: capitalize;
+}
+
+.hero-button {
+    /* border-radius: 15px; */
+    background: var(--accent-color);
+    /* display: flex; */
+    /* width: 437px; */
+    /* padding: 16px 32px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* gap: 16px; */
+}
+
+.hero-image {
+    width: 39.333px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.hero-desc {
+    color: var(--additional-text);
+    /* text-align: center; */
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+}
