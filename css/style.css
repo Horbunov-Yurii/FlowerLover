@@ -5,13 +5,41 @@
     --background-form: rgba(185, 106, 127, 0.70);
     --additional-text: #FFF;
     
-}
-/* body {
+} 
+
+/* font-family: "Playfair Display", serif; */
+/* font-family: "Source Sans 3", sans-serif; */
+/* font-family: "Spline Sans", sans-serif; */
+
+body {
     background-color: var(--background-color);
-} */
-header > p{
-    font-family: "Spline Sans";
 }
-header > nav {
-    font-family: "Source Sans Pro";
+
+
+
+.heder-logo {
+    color: var(--text-color);
+    text-align: center;
+    font-family: "Spline Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: uppercase;
 }
+
+.logo-icon {
+    width: 42px;
+    height: 39px;
+    flex-shrink: 0;
+}
+
+.nav-link {
+color: var(--text-color);
+text-align: center;
+font-family: "Source Sans 3", sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
