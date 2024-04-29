@@ -135,3 +135,48 @@ color:var(--accent-color);
         line-height: 1.33;
 }
 
+.catalog-button {
+font-family: "Source Sans 3", sans-serif;
+color: var(--additional-text);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.25; /* 125% */
+letter-spacing: 1.6px;
+text-transform: uppercase;
+}
+
+/* секція деталей */
+
+.details-text {
+color: var(--accent-color);
+font-family: "Playfair Display", serif;
+font-size: 36px;
+font-weight: 600;
+line-height: 1.33;
+}
+
+.details-title {
+color: var(--additional-text);
+text-align: center;
+font-family: "Source Sans 3", sans-serif;
+font-size: 32px;
+font-weight: 400;
+line-height: 1.25;
+text-transform: capitalize;
+}
+
+.details-description {
+color: var(--additional-text);
+font-family: "Source Sans 3", sans-serif;
+font-size: 20px;
+font-weight: 300;
+line-height: 1.25;
+}
+
+.desc-test {
+color: var(--additional-text);
+font-family: "Source Sans 3", sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 1.25;
+}
