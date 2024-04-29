@@ -1,17 +1,182 @@
 :root {
     --background-color: #000;
     --text-color: #F5EBEB;
-    --accecnt-color: #A93B59;
+    --accent-color: #A93B59;
     --background-form: rgba(185, 106, 127, 0.70);
     --additional-text: #FFF;
     
-}
-/* body {
+} 
+
+/* font-family: "Playfair Display", serif; */
+/* font-family: "Source Sans 3", sans-serif; */
+/* font-family: "Spline Sans", sans-serif; */
+
+body {
     background-color: var(--background-color);
-} */
-header > p{
-    font-family: "Spline Sans";
 }
-header > nav {
-    font-family: "Source Sans Pro";
+
+/* секція header  */
+
+.header-logo {
+    color: var(--text-color);
+    text-align: center;
+    font-family: "Spline Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.logo-icon {
+    width: 42px;
+    height: 39px;
+}
+
+.nav-link {
+    color: var(--text-color);
+    text-align: center;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+/* секція герой */
+
+.hero-title-1 {
+    color: var(--accent-color);
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.hero-title-2 {
+    color: var(--text-color);
+    font-family: "Playfair Display", serif;
+    font-size: 86px;
+    font-weight: 400;
+    line-height: 1.43;
+    text-transform: uppercase;
+}
+
+.hero-title-3 {
+    color: var(--accent-color);
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.25;
+}
+
+.hero-description {
+    color: var(--text-color);
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.25;
+    text-transform: capitalize;
+}
+
+.hero-button {
+    background: var(--accent-color);
+   
+}
+
+.hero-image {
+    width: 39.333px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.hero-desc {
+    color: var(--additional-text);
+    /* text-align: center; */
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+}
+
+/* Секція Каталог */
+.catalog-desc {
+color:var(--accent-color);
+    /* text-align: center; */
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.33;
+}
+
+.catalog-deliviry {
+    color: var(--additional-text);
+        text-align: center;
+        font-family: "Playfair Display", serif;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 1.33;
+}
+
+.catalog-description {
+    color: var(--additional-text);
+        font-family: "Source Sans 3", sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 1.28;
+}
+
+.catalog-title {
+    color: var(--additional-text);
+    font-family: "Playfair Display", serif;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 1.33;
+}
+
+.catalog-button {
+font-family: "Source Sans 3", sans-serif;
+color: var(--additional-text);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.25; /* 125% */
+letter-spacing: 1.6px;
+text-transform: uppercase;
+}
+
+/* секція деталей */
+
+.details-text {
+color: var(--accent-color);
+font-family: "Playfair Display", serif;
+font-size: 36px;
+font-weight: 600;
+line-height: 1.33;
+}
+
+.details-title {
+color: var(--additional-text);
+text-align: center;
+font-family: "Source Sans 3", sans-serif;
+font-size: 32px;
+font-weight: 400;
+line-height: 1.25;
+text-transform: capitalize;
+}
+
+.details-description {
+color: var(--additional-text);
+font-family: "Source Sans 3", sans-serif;
+font-size: 20px;
+font-weight: 300;
+line-height: 1.25;
+}
+
+.desc-test {
+color: var(--additional-text);
+font-family: "Source Sans 3", sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 1.25;
 }
