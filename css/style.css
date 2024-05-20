@@ -1,262 +1,285 @@
 :root {
-    --background-color: #000;
-    --text-color: #F5EBEB;
-    --accent-color: #A93B59;
-    --background-form: rgba(185, 106, 127, 0.70);
-    --additional-text: #FFF;
-    
-} 
+  --background-color: #000;
+  --text-color: #f5ebeb;
+  --accent-color: #a93b59;
+  --background-form: rgba(185, 106, 127, 0.7);
+  --additional-text: #fff;
+}
 
 /* font-family: "Playfair Display", serif; */
 /* font-family: "Source Sans 3", sans-serif; */
 /* font-family: "Spline Sans", sans-serif; */
 
 .container {
-    width: 1328px;
-    padding-right: 8px;
-    padding-left: 8px;
-    margin: 0 auto;
-    outline: 1px solid red ;
+  width: 1328px;
+  padding-right: 8px;
+  padding-left: 8px;
+  margin: 0 auto;
+  outline: 1px solid red;
 }
 
 img {
-    display: block;
+  display: block;
 }
 
-h1, h2, h3, p {
-    margin: 0;
-    padding: 0;
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
 }
 
-ul{
-    list-style: none;
-    margin: 0;8
-    padding: 0;
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 body {
-    background-color: var(--background-color);
+  background-color: var(--background-color);
 }
-
 
 /* секція header  */
 
 .header {
-    padding-top: 24px;
+  padding-top: 24px;
 }
 
 .header-logo {
-    color: var(--text-color);
-    text-align: center;
-    font-family: "Spline Sans", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.2;
-    text-transform: uppercase;
-    display: block;
-    margin-right: auto;
+  color: var(--text-color);
+  text-align: center;
+  font-family: "Spline Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-transform: uppercase;
+  display: block;
+  margin-right: auto;
 }
 
 .box {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .logo-icon {
-    width: 42px;
-    height: 39px;
+  width: 42px;
+  height: 39px;
 }
 
-.nav-list{
-    display: flex;
-    gap: 32px;
+.nav-list {
+  display: flex;
+  gap: 32px;
 }
 
 .nav-link {
-    color: var(--text-color);
-    text-align: center;
-    font-family: "Source Sans 3", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 1.2;
+  color: var(--text-color);
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
 }
 
 /* секція герой */
 
-
 .hero {
-    padding-top: 109px;
-    padding-bottom: 50px;
-    outline: 1px solid  green;
+  padding-top: 109px;
+  padding-bottom: 50px;
+  outline: 1px solid green;
 }
 
 .hero-title {
-    width: 860px;
+  width: 860px;
 }
 
 .hero-title-1 {
-    color: var(--accent-color);
-    font-family: "Playfair Display", serif;
-    font-size: 48px;
-    font-style: italic;
-    font-weight: 500;
-    line-height: 1.25;
-    display: block;
-    margin-bottom: 12px;
+  color: var(--accent-color);
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.25;
+  display: block;
+  margin-bottom: 12px;
 }
 
 .hero-title-2 {
-    color: var(--text-color);
-    font-family: "Playfair Display", serif;
-    font-size: 86px;
-    font-weight: 400;
-    line-height: 1.43;
-    text-transform: uppercase;
-    margin-left: 110px;
-    margin-right:24px;
+  color: var(--text-color);
+  font-family: "Playfair Display", serif;
+  font-size: 86px;
+  font-weight: 400;
+  line-height: 1.43;
+  text-transform: uppercase;
+  margin-left: 110px;
+  margin-right: 24px;
 }
 
 .hero-title-3 {
-    color: var(--accent-color);
-    font-family: "Playfair Display", serif;
-    font-size: 48px;
-    font-style: italic;
-    font-weight: 500;
-    line-height: 1.25;
+  color: var(--accent-color);
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.25;
 }
 
 .hero-description {
-    color: var(--text-color);
-    font-family: "Source Sans 3", sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 1.25;
-    text-transform: capitalize;
-    margin-top: 24px;
-    margin-bottom: 42px;
-    margin-left: 110px;
+  color: var(--text-color);
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.25;
+  text-transform: capitalize;
+  margin-top: 24px;
+  margin-bottom: 42px;
+  margin-left: 110px;
 }
 
 .hero-button {
-    background: var(--accent-color);
-    padding: 16px 32px;
-    border-radius: 15px;
-    margin-left: 110px;
-    color: var(--text-color);
-text-align: center;
-font-family: "Source Sans 3", sans-serif;
-font-size: 24px;
-font-weight: 400;
-line-height: 1.25;
+  background: var(--accent-color);
+  padding: 16px 32px;
+  border-radius: 15px;
+  margin-left: 110px;
+  color: var(--text-color);
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.25;
 }
 
 .hero-list {
-    display: flex;
-    gap: 124px;
-    justify-content: center;
+  display: flex;
+  gap: 124px;
+  justify-content: center;
 }
 
 .hero-item {
-    width: 201px;
+  width: 201px;
 }
 
 .hero-image {
-    width: 39.333px;
-    height: 40px;
-    flex-shrink: 0;
+  width: 39.333px;
+  height: 40px;
+  flex-shrink: 0;
 }
 
 .hero-desc {
-    color: var(--additional-text);
-    /* text-align: center; */
-    font-family: "Source Sans 3", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.25;
+  color: var(--additional-text);
+  /* text-align: center; */
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
 }
 
 /* Секція Каталог */
 .catalog-desc {
-color:var(--accent-color);
-    /* text-align: center; */
-    font-family: "Playfair Display", serif;
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 1.33;
+  color: var(--accent-color);
+  /* text-align: center; */
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.33;
 }
 
 .catalog-deliviry {
-    color: var(--additional-text);
-        text-align: center;
-        font-family: "Playfair Display", serif;
-        font-size: 36px;
-        font-weight: 600;
-        line-height: 1.33;
+  color: var(--additional-text);
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.33;
 }
 
 .catalog-description {
-    color: var(--additional-text);
-        font-family: "Source Sans 3", sans-serif;
-        font-size: 18px;
-        font-weight: 300;
-        line-height: 1.28;
+  color: var(--additional-text);
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.28;
 }
 
 .catalog-title {
-    color: var(--additional-text);
-    font-family: "Playfair Display", serif;
-        text-align: center;
-        font-size: 36px;
-        font-weight: 600;
-        line-height: 1.33;
+  color: var(--additional-text);
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.33;
 }
 
 .catalog-button {
-font-family: "Source Sans 3", sans-serif;
-color: var(--additional-text);
-font-size: 16px;
-font-weight: 400;
-line-height: 1.25; /* 125% */
-letter-spacing: 1.6px;
-text-transform: uppercase;
+  font-family: "Source Sans 3", sans-serif;
+  color: var(--additional-text);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25; /* 125% */
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
 }
 
 /* секція деталей */
 
+.details {
+  padding-top: 92px;
+}
+
 .details-text {
-color: var(--accent-color);
-font-family: "Playfair Display", serif;
-font-size: 36px;
-font-weight: 600;
-line-height: 1.33;
+  color: var(--accent-color);
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.33;
+  margin-left: 949px;
+  margin-bottom: 171px;
+}
+
+.details-item {
+  display: flex;
+}
+
+.details-item:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+.details-cont {
+  margin-left: 120px;
+  align-content: center;
+}
+
+.details-img {
+  border-radius: 15px;
 }
 
 .details-title {
-color: var(--additional-text);
-text-align: center;
-font-family: "Source Sans 3", sans-serif;
-font-size: 32px;
-font-weight: 400;
-line-height: 1.25;
-text-transform: capitalize;
+  color: var(--additional-text);
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.25;
+  text-transform: capitalize;
+  margin-bottom: 16px;
 }
 
 .details-description {
-color: var(--additional-text);
-font-family: "Source Sans 3", sans-serif;
-font-size: 20px;
-font-weight: 300;
-line-height: 1.25;
+  color: var(--additional-text);
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.25;
 }
 
 .desc-test {
-color: var(--additional-text);
-font-family: "Source Sans 3", sans-serif;
-font-size: 20px;
-font-weight: 600;
-line-height: 1.25;
+  color: var(--additional-text);
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.25;
 }
