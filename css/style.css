@@ -45,6 +45,10 @@ body {
 
 /* секція header  */
 
+.header {
+    padding-top: 24px;
+}
+
 .header-logo {
     color: var(--text-color);
     text-align: center;
@@ -53,11 +57,23 @@ body {
     font-weight: 400;
     line-height: 1.2;
     text-transform: uppercase;
+    display: block;
+    margin-right: auto;
+}
+
+.box {
+    display: flex;
+    align-items: center;
 }
 
 .logo-icon {
     width: 42px;
     height: 39px;
+}
+
+.nav-list{
+    display: flex;
+    gap: 32px;
 }
 
 .nav-link {
@@ -71,6 +87,17 @@ body {
 
 /* секція герой */
 
+
+.hero {
+    padding-top: 109px;
+    padding-bottom: 50px;
+    outline: 1px solid  green;
+}
+
+.hero-title {
+    width: 860px;
+}
+
 .hero-title-1 {
     color: var(--accent-color);
     font-family: "Playfair Display", serif;
@@ -78,6 +105,8 @@ body {
     font-style: italic;
     font-weight: 500;
     line-height: 1.25;
+    display: block;
+    margin-bottom: 12px;
 }
 
 .hero-title-2 {
@@ -87,6 +116,8 @@ body {
     font-weight: 400;
     line-height: 1.43;
     text-transform: uppercase;
+    margin-left: 110px;
+    margin-right:24px;
 }
 
 .hero-title-3 {
@@ -105,11 +136,32 @@ body {
     font-weight: 400;
     line-height: 1.25;
     text-transform: capitalize;
+    margin-top: 24px;
+    margin-bottom: 42px;
+    margin-left: 110px;
 }
 
 .hero-button {
     background: var(--accent-color);
-   
+    padding: 16px 32px;
+    border-radius: 15px;
+    margin-left: 110px;
+    color: var(--text-color);
+text-align: center;
+font-family: "Source Sans 3", sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 1.25;
+}
+
+.hero-list {
+    display: flex;
+    gap: 124px;
+    justify-content: center;
+}
+
+.hero-item {
+    width: 201px;
 }
 
 .hero-image {
