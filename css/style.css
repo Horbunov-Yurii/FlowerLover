@@ -5,6 +5,7 @@
   --background-form: rgba(185, 106, 127, 0.7);
   --additional-text: #fff;
   --catalog-bg:#B96A7F;
+  --man:#6F6567;
 }
 
 /* font-family: "Playfair Display", serif; */
@@ -57,7 +58,15 @@ body {
   padding-top: 24px;
 }
 
-
+/* .hope {
+  background-color: transparent;
+  fill: white;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+width: 42px;
+height: 39px;
+flex-shrink: 0;
+} */
 
 .header-logo {
 display: flex;
@@ -261,6 +270,16 @@ background: rgba(185, 106, 127, 0.50);
   line-height: 1.28;
 }
 
+.catalog-img {
+  width: 16px;
+  fill: var(--additional-text);
+  height: 20px;
+}
+
+.catalog-img:hover {
+  fill: var(--accent-color);
+}
+
 .catalog-title {
   color: var(--additional-text);
   font-family: "Playfair Display", serif;
@@ -349,4 +368,12 @@ background: rgba(185, 106, 127, 0.50);
   font-size: 20px;
   font-weight: 600;
   line-height: 1.25;
+}
+
+/* секція форма */
+
+.form-img {
+  fill: var(--man);
+  width: 28px;
+height: 28px;
 }
