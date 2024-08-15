@@ -6,6 +6,7 @@
   --additional-text: #fff;
   --catalog-bg:#B96A7F;
   --man:#6F6567;
+  --svg-color: #822740;
 }
 
 /* font-family: "Playfair Display", serif; */
@@ -376,4 +377,27 @@ background: rgba(185, 106, 127, 0.50);
   fill: var(--man);
   width: 28px;
 height: 28px;
+}
+
+.form-link {
+width: 45px;
+height: 45px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.form-link:hover {
+  background-color: green;
+  .form-img {
+    fill: red;
+  }
+
+}
+
+.form-chek {
+  fill: var(--svg-color);
+  width: 48px;
+  height: 48px;
 }
