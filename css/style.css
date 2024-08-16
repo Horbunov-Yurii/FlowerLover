@@ -7,6 +7,8 @@
   --catalog-bg:#B96A7F;
   --man:#6F6567;
   --svg-color: #822740;
+  --hart-color: #B02E51;
+  --form-text: rgba(255, 255, 255, 0.71);
 }
 
 /* font-family: "Playfair Display", serif; */
@@ -291,6 +293,12 @@ background: rgba(185, 106, 127, 0.50);
   gap: 75px;
 }
 
+.card-hard {
+  fill: var(--hart-color);
+  width: 28px;
+  height: 28px;
+}
+
 .card-link {
   background-color: #fff;
   padding-top: 15px;
@@ -425,6 +433,66 @@ margin-top: 192px;
 }
 
 /* секція форма */
+
+.form-text {
+  color: var(--accent-color);
+text-align: center;
+font-family: "Playfair Display";
+font-size: 36px;
+font-weight: 600;
+line-height: 1.33;
+}
+
+.form-title {
+  color: var(--additional-text);
+font-family: "Source Sans Pro";
+font-size: 32px;
+font-weight: 600;
+line-height: 1.25;
+}
+
+.form-span {
+  color: var(--text-color);
+  font-weight: 400;
+  
+}
+
+
+
+.form-btn {
+  color: var(--additional-text);
+font-family: "Source Sans Pro";
+font-size: 24px;
+font-weight: 400;
+line-height: 1.25;
+padding: 16px 116px;
+background-color: var(--accent-color);
+border-radius: 15px;
+border: none;
+box-shadow: 142px 0px 40px 0px rgba(0, 0, 0, 0.00), 91px 0px 36px 0px rgba(0, 0, 0, 0.01), 51px 0px 31px 0px rgba(0, 0, 0, 0.05), 23px 0px 23px 0px rgba(0, 0, 0, 0.09), 6px 0px 12px 0px rgba(0, 0, 0, 0.10), 0px 0px 0px 0px rgba(0, 0, 0, 0.10);
+
+}
+
+.form-caption {
+  color: var(--additional-text);
+text-align: center;
+font-family: "Source Sans Pro";
+font-size: 32px;
+font-weight: 400;
+line-height: 1.25;
+}
+
+.form-desc {
+  color: var(--form-text);
+font-family: "Source Sans Pro";
+font-size: 20px;
+font-weight: 400;
+line-height: 1.25;
+}
+
+.form-wrapper {
+  font-weight: 700;
+}
 
 .form-img {
   fill: var(--man);
