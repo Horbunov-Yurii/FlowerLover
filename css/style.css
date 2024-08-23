@@ -299,7 +299,15 @@ flex-shrink: 0;
   fill: var(--hart-color);
   width: 28px;
   height: 28px;
- 
+  position: absolute;
+  top: 14px;
+  right: 15px;
+}
+
+.card-link:hover {
+  .card-hard {
+    fill: red;
+  }
 }
 
 .card-link {
@@ -309,6 +317,7 @@ flex-shrink: 0;
   padding-bottom: 20px;
   padding-left: 15px;
   border-radius: 10px;
+  position: relative;
 }
 
 .card-box {
