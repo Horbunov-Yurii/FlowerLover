@@ -498,6 +498,9 @@ flex-shrink: 0;
   font-weight: 400;
 }
 
+.form-wrap {
+  position: relative;
+}
 
 .form-input {
   padding-top: 22px;
@@ -526,6 +529,9 @@ flex-shrink: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  right: 22px;
+  top:8px;
 }
 
 .form-link:hover {
@@ -586,6 +592,9 @@ flex-shrink: 0;
   height: 28px;
 }
 
+
+
+
 .form-list {
   display: flex;
   flex-direction: column;
@@ -612,4 +621,24 @@ flex-shrink: 0;
   fill: var(--svg-color);
   width: 48px;
   height: 48px;
+}
+
+.claint {
+  padding-top: 121px;
+  padding-bottom: 125px;
+}
+
+.claint-tittle {
+color: var(--accent-color);
+font-family: "Playfair Display";
+font-size: 36px;
+font-weight: 600;
+line-height: normal;
+margin-bottom: 140px;
+text-align: end;
+}
+
+.claint-list {
+  display: flex;
+  gap: 18px;
 }
