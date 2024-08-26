@@ -449,11 +449,19 @@ flex-shrink: 0;
   padding-top: 132px;
 }
 
+.form-text {
+  color: var(--accent-color);
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.33;
+  text-align: start;
+}
+
 .form-box {
   border-radius: 10px;
   background: rgba(185, 106, 127, 0.7);
-  /* padding-top: 40px;
-  padding-bottom: 86px; */
   margin-top: 140px;
   display: flex;
   gap: 312px;
@@ -469,20 +477,6 @@ flex-shrink: 0;
   padding-right: 64px;
 }
 
-.form-text {
-  color: var(--accent-color);
-  text-align: center;
-  font-family: "Playfair Display";
-  font-size: 36px;
-  font-weight: 600;
-  line-height: 1.33;
-  text-align: start;
-}
-
-.form-span {
-  color: #F5EBEB;
-  font-weight: 600;
-}
 
 .form-title {
   color: var(--additional-text);
@@ -492,6 +486,11 @@ flex-shrink: 0;
   line-height: 1.25;
   width: 347px;
 }
+
+/* .form-span {
+  color: #F5EBEB;
+  font-weight: 600;
+} */
 
 .form-span {
   color: var(--text-color);
@@ -523,22 +522,42 @@ flex-shrink: 0;
 }
 
 .form-link {
-  width: 45px;
+  /* width: 45px;
   height: 45px;
-  border-radius: 50%;
+  border-radius: 50%; */
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
-  right: 22px;
-  top:8px;
+  right: 25px;
+  top:19px;
 }
 
-.form-link:hover {
+/* .form-link:hover {
   background-color: green;
   .form-img {
     fill: red;
   }
+} */
+
+.form-img {
+  fill: var(--man);
+  width: 28px;
+  height: 28px;
+}
+
+.form-img:hover{
+  fill: #b02e51;
+
+}
+
+.line{
+width: 1px;
+height: 63.5px;
+background: #848484;
+position: absolute;
+top:0;
+left: 320px;
 }
 
 .form-btn {
@@ -586,12 +605,6 @@ flex-shrink: 0;
   font-weight: 700;
 }
 
-.form-img {
-  fill: var(--man);
-  width: 28px;
-  height: 28px;
-}
-
 
 
 
@@ -626,7 +639,10 @@ flex-shrink: 0;
 .claint {
   padding-top: 121px;
   padding-bottom: 125px;
+  
 }
+
+
 
 .claint-tittle {
 color: var(--accent-color);
@@ -636,9 +652,6 @@ font-weight: 600;
 line-height: normal;
 margin-bottom: 140px;
 text-align: end;
-}
 
-.claint-list {
-  display: flex;
-  gap: 18px;
+
 }
