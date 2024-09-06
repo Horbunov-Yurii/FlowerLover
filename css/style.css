@@ -58,6 +58,7 @@ body {
 
 .header {
   padding-top: 24px;
+  padding-bottom: 10px;
   /* position: fixed;
   top: 0;
   left: 0;
@@ -110,6 +111,8 @@ flex-shrink: 0;
   gap: 32px;
 }
 
+
+
 .nav-link {
   color: var(--text-color);
   text-align: center;
@@ -118,6 +121,23 @@ flex-shrink: 0;
   font-weight: 400;
   line-height: 1.2;
 }
+
+.nav-link::after {
+content: "";
+display: block;
+width: 100%;
+height: 4px;
+background-color: var(--hart-color);
+border-radius: 4px;
+margin-top: 10px;
+opacity: 0;
+}
+
+.nav-link:hover::after {
+  opacity: 1;
+}
+
+
 
 /* секція герой */
 
@@ -398,6 +418,10 @@ flex-shrink: 0;
     flex-wrap: wrap;
 } */
 
+.details-box {
+  position: relative;
+}
+
 .details-item {
   display: flex;
   justify-content: space-between;
@@ -419,6 +443,27 @@ flex-shrink: 0;
 
 .details-img {
   border-radius: 15px;
+}
+
+.overley {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(185, 106, 127, 0.70);
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.overley:hover {
+  opacity: 1;
+}
+
+.details-paragraph {
+  font-size: 20px;
+  color: #fff;
 }
 
 .details-title {
