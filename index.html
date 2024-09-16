@@ -82,7 +82,7 @@
           <span class="hero-title-3">зі свіжих квітів</span>
         </h1>
         <p class="hero-description">З доставкою по Києву протягом 1 години</p>
-        <button type="button" class="hero-button">ЗАМОВИТИ КВІТИ</button>
+        <button type="button" class="hero-button" data-modal-open>ЗАМОВИТИ КВІТИ</button>
         <ul class="hero-list">
           <li class="hero-item">
             <img src="./images/rose.png" alt="rose" class="hero-image">
@@ -403,6 +403,54 @@
       <use href="./images/symbol-defs.svg#icon-arrow-up"></use>
     </svg></a>
   </footer>
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+    <form>
+      <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+      <label class="modal-lab">
+        Ім'я
+        <input type="text" class="modal-inp">
+        <svg class="modal-svg">
+          <use href="./images/symbol-defs.svg#icon-contakt"></use>
+        </svg>
+      </label>
+      <label class="modal-lab">
+        Телефон
+        <input type="tel" class="modal-inp">
+        <svg class="modal-svg">
+          <use href="./images/symbol-defs.svg#icon-phon"></use>
+        </svg>
+      </label>
+      <label class="modal-lab">
+        Пошта
+        <input type="email" class="modal-inp">
+        <svg class="modal-svg">
+          <use href="./images/symbol-defs.svg#icon-email"></use>
+        </svg>
+      </label>
+      <label class="modal-text">
+        Коментар
+        <textarea name="comment" class="modal-coment" placeholder="Введіть текст"></textarea>
+      </label>
+      <div class="check-box">
+      <label class="modal-check">
+        <input type="checkbox" class="check-inp">
+        <p class="check-text">Погоджуюся з розсилкою та приймаю</p> 
+      </label>
+      <a href="#" class="check-link">Умови договору</a>
+      </div>
+      <button type="submit" class="modal-btn">
+        Відправити
+      </button>
+    </form>
+    <button type="button" class="modal-close" data-modal-close>
+      <svg class="modal-icon">
+        <use href="./images/symbol-defs.svg#icon-dagger"></use>
+      </svg>
+    </button>
+    </div>
+  </div>
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
