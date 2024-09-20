@@ -447,6 +447,7 @@ flex-shrink: 0;
 .details-item {
   display: flex;
   justify-content: space-between;
+  
 }
 
 .details-item:nth-child(2n) {
@@ -465,6 +466,8 @@ flex-shrink: 0;
 
 .details-img {
   border-radius: 15px;
+  border-radius: 20px;
+  
 }
 
 .overley {
@@ -476,16 +479,22 @@ flex-shrink: 0;
   height: 100%;
   padding: 20px;
   overflow: hidden;
+  border-radius: 20px;
   opacity: 0;
+
+  
 }
 
 .overley:hover {
   opacity: 1;
+  overflow: hidden;
+  
 }
 
 .details-paragraph {
   font-size: 20px;
   color: #fff;
+  
 }
 
 .details-title {
@@ -772,22 +781,29 @@ text-align: end;
   height: 100%;
   background: rgba(82, 14, 14, 0.5);
   opacity: 1;
+ 
 }
 
 .is-hidden {
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
+ 
+ 
 }
 
 .modal {
 background-color: #fff;
 position: absolute;
 top: 50%;
-left: 50%;;
-transform: translate(-50%, -50%);
+left: 50%;
 padding: 40px;
+transform: translate(-50%, -50%);
+
 }
+
+
+
 
 .modal-title {
   color: #212121;
