@@ -435,14 +435,11 @@ flex-shrink: 0;
   margin-bottom: 171px;
 }
 
-/* .details-list {
-    display: flex;
-    flex-wrap: wrap;
-} */
+
 
 .details-box {
   position: relative;
-  overflow: hidden;
+  
 }
 
 .details-item {
@@ -483,8 +480,7 @@ flex-shrink: 0;
   overflow: hidden;
   border-radius: 20px;
   opacity: 0;
-  transform: translateX(110%);
- transition: 250ms;
+ 
 
   
 }
@@ -492,8 +488,7 @@ flex-shrink: 0;
 .details-box:hover .overley {
   opacity: 1;
   overflow: hidden;
-   transform: translateX(0);
-  transition: 250ms;
+ 
   
 }
 
