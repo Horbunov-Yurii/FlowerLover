@@ -442,6 +442,7 @@ flex-shrink: 0;
 
 .details-box {
   position: relative;
+  overflow: hidden;
 }
 
 .details-item {
@@ -467,6 +468,7 @@ flex-shrink: 0;
 .details-img {
   border-radius: 15px;
   border-radius: 20px;
+  width: 660px;
   
 }
 
@@ -481,13 +483,17 @@ flex-shrink: 0;
   overflow: hidden;
   border-radius: 20px;
   opacity: 0;
+  transform: translateX(110%);
+ transition: 250ms;
 
   
 }
 
-.overley:hover {
+.details-box:hover .overley {
   opacity: 1;
   overflow: hidden;
+   transform: translateX(0);
+  transition: 250ms;
   
 }
 
@@ -495,6 +501,10 @@ flex-shrink: 0;
   font-size: 20px;
   color: #fff;
   
+}
+
+.details-cont{
+  width: 527px;
 }
 
 .details-title {
