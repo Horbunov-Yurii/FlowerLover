@@ -786,7 +786,7 @@ text-align: end;
   height: 100%;
   background: rgba(82, 14, 14, 0.5);
   opacity: 1;
- 
+ transition:opacity 500ms, visibility 500ms;
 }
 
 .is-hidden {
@@ -803,11 +803,14 @@ position: absolute;
 top: 50%;
 left: 50%;
 padding: 40px;
-transform: translate(-50%, -50%);
-
+transform: translate(-50%, -50%) rotate(360deg);
+transition: transform 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-
+.is-hidden .modal{
+  transform: translate(1500px, 5000px) rotate(0deg);
+  transition: transform 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
 
 
 .modal-title {
