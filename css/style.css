@@ -217,9 +217,21 @@ flex-shrink: 0;
   margin-top: 24px;
   margin-bottom: 42px;
   margin-left: 110px;
+  animation-name: description-animation;
+  animation-duration: 2000ms;
 }
 
-.hero-button {
+@keyframes description-animation {
+  0% {
+    transform: translate(1000px);
+  }
+
+  100% {
+    transform: translate(0px);
+  }
+}
+
+.hero-button{
   background: var(--accent-color);
   padding: 16px 32px;
   border-radius: 15px;
@@ -234,6 +246,20 @@ flex-shrink: 0;
   width: 437px;
   border: none;
   cursor: pointer;
+  animation-name: button-move;
+  animation-duration: 2000ms;
+}
+
+@keyframes button-move {
+  0% {
+    transform: translate(-1000px, 1000px) rotate(0) scale(0.5);
+    background-color: var(--background-color);
+  }
+
+  100% {
+    transform: translate(0px, 0px) rotate(360deg) scale(1);
+    background-color: var(--accent-color);
+  }
 }
 
 .hero-list {
