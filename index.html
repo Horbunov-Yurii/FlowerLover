@@ -12,7 +12,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <link rel="stylesheet" href="./css/style.css">
+  
 </head>
 
 <body>
@@ -27,46 +34,22 @@
         <ul class="nav-list">
           <li class="nav-item">
             <a href="#" class="nav-link">Головна</a>
-            <ul class="home-text">
-              <li class="item"><a href="" class="link">Посилання1</a></li>
-              <li class="item"><a href="" class="link">Посилання2</a></li>
-              <li class="item"><a href="" class="link">Посилання3</a></li>
-          </ul>
+            
         </li>
-          <li class="nav-item"><a href="#catalog" class="nav-link">Каталог</a>
-            <ul class="home-text">
-              <li class="item"><a href="" class="link">Посилання1</a></li>
-              <li class="item"><a href="" class="link">Посилання2</a></li>
-              <li class="item"><a href="" class="link">Посилання3</a></li>
-          </ul>
+          <li class="nav-item "><a href="#catalog" class="nav-link ">Каталог</a>
+           
           </li>
-          <li class="nav-item"><a href="#details" class="nav-link">Про нас</a>
-          <ul class="home-text">
-              <li class="item"><a href="" class="link">Посилання1</a></li>
-              <li class="item"><a href="" class="link">Посилання2</a></li>
-              <li class="item"><a href="" class="link">Посилання3</a></li>
-          </ul>
+          <li class="nav-item"><a href="#details" class="nav-link ">Про нас</a>
+          
           </li>
-          <li class="nav-item"><a href="#form" class="nav-link">Як замовити</a>
-          <ul class="home-text">
-              <li class="item"><a href="" class="link">Посилання1</a></li>
-              <li class="item"><a href="" class="link">Посилання2</a></li>
-              <li class="item"><a href="" class="link">Посилання3</a></li>
-          </ul>
+          <li class="nav-item"><a href="#form" class="nav-link ">Як замовити</a>
+         
           </li>
-          <li class="nav-item"><a href="#client" class="nav-link">Відгуки </a>
-          <ul class="home-text">
-              <li class="item"><a href="" class="link">Посилання1</a></li>
-              <li class="item"><a href="" class="link">Посилання2</a></li>
-              <li class="item"><a href="" class="link">Посилання3</a></li>
-          </ul>
+          <li class="nav-item"><a href="#client" class="nav-link ">Відгуки </a>
+          
           </li>
-          <li class="nav-item"><a href="#footer" class="nav-link">Контакти </a>
-          <ul class="home-text">
-              <li class="item"><a href="" class="link">Посилання1</a></li>
-              <li class="item"><a href="" class="link">Посилання2</a></li>
-              <li class="item"><a href="" class="link">Посилання3</a></li>
-          </ul>
+          <li class="nav-item"><a href="#footer" class="nav-link ">Контакти </a>
+         
           </li>
         </ul>
       </nav>
@@ -102,7 +85,7 @@
     <!-- секція Каталог -->
     <section class="catalog" id="catalog">
       <div class="container">
-        <p class="catalog-desc">Каталог</p>
+        <p class="catalog-desc animate__swing">Каталог</p>
         <div class="catalog-vrap">
           <h2 class="catalog-deliviry">Доставка квітів в Києві</h2>
           <ul class="catalog-list">
@@ -155,7 +138,7 @@
               <p class="card-text">Мінібукет 1400-2</p>
             </div>
           </li>
-          <li class="card-link">
+          <li class="card-link" data-aos="fade-right">
             <svg class="card-hard">
               <use href="./images/symbol-defs.svg#icon-heart"></use>
             </svg>
@@ -451,6 +434,10 @@
     </div>
   </div>
   <script src="./js/modal.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>0
 </body>
 
 </html>

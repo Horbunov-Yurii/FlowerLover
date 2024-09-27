@@ -80,8 +80,19 @@ flex-shrink: 0;
   flex-direction: column;
   align-items: center;
   margin-right: auto;
+  animation-name: logo-move;
+  animation-duration: 2500ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
-
+@keyframes logo-move{
+0%{
+transform: scale(0.9);
+}
+100%{
+transform: scale(1.1);
+}
+}
 .logo-icon {
   width: 42px;
   height: 39px;
@@ -174,6 +185,8 @@ flex-shrink: 0;
 
 .hero-title {
   width: 860px;
+  animation-name: title-3-move;
+  animation-duration: 2000ms;
 }
 
 .hero-title-1 {
@@ -205,6 +218,15 @@ flex-shrink: 0;
   font-style: italic;
   font-weight: 500;
   line-height: 1.25;
+}
+
+@keyframes title-3-move{
+  0%{
+transform: translateX(2000px);
+  }
+  100%{
+transform: translateX(0px);
+  }
 }
 
 .hero-description {
