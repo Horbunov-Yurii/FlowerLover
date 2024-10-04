@@ -1,7 +1,10 @@
 .claint {
     padding-top: 121px;
     padding-bottom: 125px;
-    
+  }
+
+  .claint .container {
+    position: relative;
   }
   
   
@@ -14,6 +17,34 @@
   line-height: normal;
   margin-bottom: 140px;
   text-align: end;
-  
-  
+  }
+
+  .claint-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .claint-img {
+    width: 100%;
+  }
+
+  .client-icon-left {
+    fill: #B02E51;
+    position: absolute;
+    top: 50%;
+    left: -100px;
+    width: 70px;
+height: 74px;
+cursor: pointer;
+  }
+
+  .client-icon-right {
+    fill: #B02E51;
+    position: absolute;
+    top: 50%;
+    right: -100px;
+    width: 70px;
+height: 74px;
+cursor: pointer;
   }
