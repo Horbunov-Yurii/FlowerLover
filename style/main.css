@@ -222,23 +222,20 @@ body {
 .catalog {
   padding-top: 44px;
 }
-
-.catalog-desc {
-  color: var(--accent-color);
+.catalog__desc {
+  color: #a93b59;
   font-family: "Playfair Display", serif;
   font-size: 36px;
   font-weight: 600;
   line-height: 1.33;
   margin-bottom: 101px;
 }
-
-.catalog-vrap {
+.catalog__vrap {
   border-radius: 15px;
-  background: rgba(185, 106, 127, 0.5);
+  background: rgba(185, 106, 127, 0.7);
 }
-
-.catalog-deliviry {
-  color: var(--additional-text);
+.catalog__deliviry {
+  color: var #fff;
   text-align: center;
   font-family: "Playfair Display", serif;
   font-size: 36px;
@@ -246,93 +243,35 @@ body {
   line-height: 1.33;
   margin-bottom: 20px;
 }
-
-.catalog-list {
+.catalog__list {
   display: flex;
   justify-content: space-around;
   padding-top: 21px;
   padding-bottom: 21px;
-  background-color: var(--catalog-bg);
+  background-color: #b96a7f;
   border-radius: 15px;
 }
-
-.catalog-item {
+.catalog__item {
   display: flex;
   gap: 74px;
 }
-
-.catalog-description {
-  color: var(--additional-text);
+.catalog__description {
+  color: #fff;
   font-family: "Source Sans 3", sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.28;
 }
-
-.catalog-img {
+.catalog__img {
   width: 16px;
-  fill: var(--additional-text);
+  fill: #fff;
   height: 20px;
 }
-
-.catalog-img:hover {
-  fill: var(--accent-color);
+.catalog__img:hover {
+  fill: #a93b59;
 }
-
-.card-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 75px;
-}
-
-.card-hard {
-  fill: var(--hart-color);
-  width: 28px;
-  height: 28px;
-  position: absolute;
-  top: 14px;
-  right: 15px;
-}
-
-.card-link:hover .card-hard {
-  fill: red;
-}
-
-.card-link {
-  background-color: #fff;
-  padding-top: 15px;
-  padding-right: 15px;
-  padding-bottom: 20px;
-  padding-left: 15px;
-  border-radius: 10px;
-  position: relative;
-}
-
-.card-box {
-  background-color: #fff;
-  text-align: center;
-  margin-top: 15px;
-}
-
-.card-title {
-  color: var(--background-color);
-  font-family: "Source Sans 3", sans-serif;
-  font-size: 34px;
-  font-weight: 300;
-  line-height: 1.25;
-}
-
-.card-text {
-  color: #000;
-  font-family: "Source Sans 3", sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 1.25;
-}
-
-.catalog-title {
-  color: var(--additional-text);
+.catalog__title {
+  color: #fff;
   font-family: "Playfair Display", serif;
   text-align: center;
   font-size: 36px;
@@ -341,17 +280,11 @@ body {
   margin-bottom: 20px;
   margin-top: 50px;
 }
-
-.cutal-btn {
-  display: flex;
-  justify-content: center;
-}
-
-.catalog-button {
+.catalog__button {
   padding: 15px 30px;
   background-color: transparent;
   font-family: "Source Sans 3", sans-serif;
-  color: var(--additional-text);
+  color: #fff;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.25;
@@ -360,6 +293,56 @@ body {
   border-radius: 15px;
   border: 1px solid #fff;
   margin-top: 192px;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 75px;
+}
+.card-list__hard {
+  fill: #b02e51;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 14px;
+  right: 15px;
+}
+.card-list__link:hover__hard {
+  fill: red;
+}
+.card-list__link {
+  background-color: #fff;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  border-radius: 10px;
+  position: relative;
+}
+.card-list__box {
+  background-color: #fff;
+  text-align: center;
+  margin-top: 15px;
+}
+.card-list__title {
+  color: #000;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 1.25;
+}
+.card-list__text {
+  color: #000;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.25;
+}
+.card-list__btn {
+  display: flex;
+  justify-content: center;
 }
 
 .details {
