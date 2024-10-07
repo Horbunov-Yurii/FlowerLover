@@ -1,175 +1,169 @@
 .catalog {
-    padding-top: 44px;
+  padding-top: 44px;
 
-    &__desc {
-      color: $accent-color;
-      font-family: "Playfair Display", serif;
-      font-size: 36px;
-      font-weight: 600;
-      line-height: 1.33;
-      margin-bottom: 101px;
-    }
-
-    &__vrap {
-      border-radius: 15px;
-      background: $background-form;
-    }
-
-    &__deliviry {
-      color: var $additional-text;
-      text-align: center;
-      font-family: "Playfair Display", serif;
-      font-size: 36px;
-      font-weight: 600;
-      line-height: 1.33;
-      margin-bottom: 20px;
-    }
-
-    &__list {
-      display: flex;
-      justify-content: space-around;
-      padding-top: 21px;
-      padding-bottom: 21px;
-      background-color: $catalog-bg;
-      border-radius: 15px;
-    }
-
-    &__item {
-      display: flex;
-      gap: 74px;
-    }
-
-    &__description {
-      color: $additional-text;
-      font-family: "Source Sans 3", sans-serif;
-      font-size: 18px;
-      font-weight: 300;
-      line-height: 1.28;
-    }
-
-    &__img {
-      width: 16px;
-      fill: $additional-text;
-      height: 20px;
-    }
-
-    &__img:hover {
-      fill: $accent-color;
-    }
-
-    &__title {
-      color: $additional-text;
-      font-family: "Playfair Display", serif;
-      text-align: center;
-      font-size: 36px;
-      font-weight: 600;
-      line-height: 1.33;
-      margin-bottom: 20px;
-      margin-top: 50px;
-    }
-
-    &__button {
-      padding: 15px 30px;
-      background-color: transparent;
-      font-family: "Source Sans 3", sans-serif;
-      color: $additional-text;
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 1.25;
-      letter-spacing: 1.6px;
-      text-transform: uppercase;
-      border-radius: 15px;
-      border: 1px solid $additional-text;
-      margin-top: 192px;
-    }
+  &__desc {
+    color: $accent-color;
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-bottom: 101px;
   }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  .card-list {
+
+  &__wraper {
+    border-radius: 15px;
+    background-color: $background-form;
+  }
+
+  &__deliviry {
+    color: $additional-text;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-bottom: 20px;
+  }
+
+  &__list {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 75px;
-
-    &__hard {
-      fill: $hart-color;
-      width: 28px;
-      height: 28px;
-      position: absolute;
-      top: 14px;
-      right: 15px;
-    }
-
-    &__link:hover {
-      &__hard {
-        fill: red;
-      }
-    }
-
-    &__link {
-      background-color: $additional-text;
-      padding-top: 15px;
-      padding-right: 15px;
-      padding-bottom: 20px;
-      padding-left: 15px;
-      border-radius: 10px;
-      position: relative;
-    }
-    &__box {
-      background-color: $additional-text;
-      text-align: center;
-      margin-top: 15px;
-    }
-
-    &__title {
-      color: $background-color;
-      font-family: "Source Sans 3", sans-serif;
-      font-size: 34px;
-      font-weight: 300;
-      line-height: 1.25;
-    }
-    
-    &__text {
-      color: $background-color;
-      font-family: "Source Sans 3", sans-serif;
-      font-size: 16px;
-      font-weight: 300;
-      line-height: 1.25;
-    }
-    
-    
-    
-    &__btn {
-      display: flex;
-      justify-content: center;
-    }
-    
+    justify-content: space-around;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    background-color: $catalog-bg;
+    border-radius: 15px;
   }
-  
-  
-  
-  
-  
-  
-  
+
+  &__item {
+    display: flex;
+    gap: 74px;
+  }
+
+  &__description {
+    color: $additional-text;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.28;
+  }
+
+  &__img {
+    width: 16px;
+    fill: $additional-text;
+    height: 20px;
+  }
+
+  &__img:hover {
+    fill: $accent-color;
+  }
+
+  &__title {
+    color: $additional-text;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.33;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+
+  &__button {
+    padding: 15px 30px;
+    background-color: transparent;
+    font-family: "Source Sans 3", sans-serif;
+    color: $additional-text;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    border: 1px solid $additional-text;
+   
+  }
+
+  &__btn {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+
+    &__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 75px;
+
+}
+
+   &__itm {
+    background-color: $additional-text;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    border-radius: 10px;
+    position: relative;
+  }
+
+         &__hard {
+    fill: $hart-color;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    top: 14px;
+    right: 15px;
+  }
+
+   &__box {
+    background-color: $additional-text;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+    &__caption {
+    color: $background-color;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 1.25;
+  }
+
+   &__text {
+    color: $background-color;
+    // color: white;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.25;
+  }
+}
+
+
+
+ 
+
+ 
+
+
+
   
  
-  
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+ 
