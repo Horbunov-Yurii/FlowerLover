@@ -4,8 +4,9 @@
 
 
   .box {
-    display: flex;
-    align-items: center;
+    @include flex-box($justify:start);
+    // display: flex;
+    // align-items: center;
   }
 
   &__logo {

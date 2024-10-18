@@ -20,6 +20,30 @@ a {
   text-decoration: none;
 }
 
+.catalog__title, .catalog__deliviry, .catalog__desc {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.hero__button {
+  background: #a93b59;
+  padding: 16px 32px;
+  border-radius: 15px;
+  margin-left: 110px;
+  margin-bottom: 437px;
+  color: #f5ebeb;
+  text-align: center;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.25;
+  width: 437px;
+  border: none;
+  cursor: pointer;
+  animation-name: button-move;
+  animation-duration: 2000ms;
+}
+
 body {
   background-color: #000;
 }
@@ -39,6 +63,8 @@ body {
 .header .box {
   display: flex;
   align-items: center;
+  justify-content: start;
+  flex-direction: row;
 }
 .header__logo {
   display: flex;
@@ -161,24 +187,6 @@ body {
     transform: translate(0px);
   }
 }
-.hero__button {
-  background: #a93b59;
-  padding: 16px 32px;
-  border-radius: 15px;
-  margin-left: 110px;
-  margin-bottom: 437px;
-  color: #f5ebeb;
-  text-align: center;
-  font-family: "Source Sans 3", sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 1.25;
-  width: 437px;
-  border: none;
-  cursor: pointer;
-  animation-name: button-move;
-  animation-duration: 2000ms;
-}
 @keyframes button-move {
   0% {
     transform: translate(-1000px, 1000px) rotate(0) scale(0.5);
@@ -191,8 +199,10 @@ body {
 }
 .hero__list {
   display: flex;
-  gap: 124px;
+  align-items: start;
   justify-content: center;
+  flex-direction: row;
+  gap: 124px;
 }
 .hero__item {
   display: flex;
@@ -225,8 +235,6 @@ body {
 .catalog__desc {
   color: #a93b59;
   font-family: "Playfair Display", serif;
-  font-size: 36px;
-  font-weight: 600;
   line-height: 1.33;
   margin-bottom: 101px;
 }
@@ -238,8 +246,6 @@ body {
   color: #fff;
   text-align: center;
   font-family: "Playfair Display", serif;
-  font-size: 36px;
-  font-weight: 600;
   line-height: 1.33;
   margin-bottom: 20px;
 }
@@ -274,8 +280,6 @@ body {
   color: #fff;
   font-family: "Playfair Display", serif;
   text-align: center;
-  font-size: 36px;
-  font-weight: 600;
   line-height: 1.33;
   margin-bottom: 20px;
   margin-top: 50px;
@@ -668,6 +672,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: row;
 }
 
 .claint-img {

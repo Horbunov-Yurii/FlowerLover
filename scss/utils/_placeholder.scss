@@ -1,0 +1,24 @@
+%font {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+%button {
+    background: $accent-color;
+    padding: 16px 32px;
+    border-radius: 15px;
+    margin-left: 110px;
+    margin-bottom: 437px;
+    color: $text-color;
+    text-align: center;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.25;
+    width: 437px;
+    border: none;
+    cursor: pointer;
+    animation-name: button-move;
+    animation-duration: 2000ms;
+}
+
