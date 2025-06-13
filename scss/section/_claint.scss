@@ -1,0 +1,48 @@
+.claint {
+    padding-top: 121px;
+    padding-bottom: 125px;
+  }
+
+  .claint .container {
+    position: relative;
+  }
+  
+  
+  
+  .claint-tittle {
+  color: var(--accent-color);
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 140px;
+  text-align: end;
+  }
+
+  .claint-list {
+   @include flex-box();
+  }
+
+  .claint-img {
+    width: 100%;
+  }
+
+  .client-icon-left {
+    fill: #B02E51;
+    position: absolute;
+    top: 50%;
+    left: -100px;
+    width: 70px;
+height: 74px;
+cursor: pointer;
+  }
+
+  .client-icon-right {
+    fill: #B02E51;
+    position: absolute;
+    top: 50%;
+    right: -100px;
+    width: 70px;
+height: 74px;
+cursor: pointer;
+  }

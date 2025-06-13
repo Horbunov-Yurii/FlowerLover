@@ -1,0 +1,129 @@
+.hero {
+  padding-top: 109px;
+  padding-bottom: 50px;
+  outline: 1px solid green;
+  background-image: url(../images/herobg.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+
+  &__title {
+    width: 860px;
+    animation-name: title-3-move;
+    animation-duration: 2000ms;
+  }
+
+  &__title1 {
+    color: $accent-color;
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.25;
+    display: block;
+    margin-bottom: 12px;
+  }
+
+  &__title2 {
+    color: $text-color;
+    font-family: "Playfair Display", serif;
+    font-size: 86px;
+    font-weight: 400;
+    line-height: 1.43;
+    text-transform: uppercase;
+    margin-left: 110px;
+    margin-right: 24px;
+  }
+
+  &__title3 {
+    color: $accent-color;
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.25;
+  }
+
+  @keyframes title-3-move {
+    0% {
+      transform: translateX(2000px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+
+  &__description {
+    color: $text-color;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.25;
+    text-transform: capitalize;
+    margin-top: 24px;
+    margin-bottom: 42px;
+    margin-left: 110px;
+    animation-name: description-animation;
+    animation-duration: 2000ms;
+  }
+
+  @keyframes description-animation {
+    0% {
+      transform: translate(1000px);
+    }
+
+    100% {
+      transform: translate(0px);
+    }
+  }
+
+  &__button {
+    @extend %button;
+  }
+
+  @keyframes button-move {
+    0% {
+      transform: translate(-1000px, 1000px) rotate(0) scale(0.5);
+      background-color: $background-color;
+    }
+
+    100% {
+      transform: translate(0px, 0px) rotate(360deg) scale(1);
+      background-color: $accent-color;
+    }
+  }
+
+  &__list {
+    @include flex-box($align:start, $justify:center);
+    // display: flex;
+    gap: 124px;
+    // justify-content: center;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    text-align: center;
+  }
+
+  &__image {
+    width: 39.333px;
+    height: 40px;
+    flex-shrink: 0;
+  }
+
+  &__desc {
+    color: $additional-text;
+    /* text-align: center; */
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    width: 201px;
+  }
+
+  &__item:nth-child(2) > &__desc {
+    width: 215px;
+  }
+}
